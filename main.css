@@ -1,0 +1,23 @@
+.numbers{
+    border:solid 2px black;
+    width:150px;
+    box-sizing: border-box;
+    text-align: center
+}
+.btn{
+    padding: 3px 5px;
+    margin:30px 5px 0 5px;
+    border:solid 2px black;
+    font-size: 14px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+}
+.is_active{
+    opacity: 1;
+}
+.is_inactive{
+    opacity: 0.4;
+    cursor: default;
+}
